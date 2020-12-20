@@ -1,0 +1,29 @@
+product,country,type,total_tons_imported,outcome,years
+sugar,United States,Import,4266.959,3311692,"2017,2018,2019"
+sugar,Chile,Import,700.0,610812,"2017,2018,2019"
+sugar,Argentina,Import,598.4,512624,"2017,2018"
+sugar,Italy,Import,291.596,355682,"2017,2018,2019"
+sugar,Netherlands,Import,77.241,285032,"2017,2018,2019"
+sugar,Germany,Import,86.012,270233,"2017,2018,2019"
+sugar,Switzerland,Import,26.153,204303,"2017,2018,2019"
+sugar,Guatemala,Import,320.0,112703,2019
+sugar,Paraguay,Import,102.264,88778,"2017,2018,2019"
+sugar,Indonesia,Import,34.02,71904,2019
+sugar,Belgium,Import,31.953,46470,"2017,2018,2019"
+sugar,Swaziland,Import,7.38,37744,"2017,2019"
+sugar,China,Import,31.053,25337,"2017,2018,2019"
+sugar,Austria,Import,23.301,17630,"2017,2018,2019"
+sugar,Mexico,Import,9.524,9426,2017
+sugar,Thailand,Import,5.499,7785,"2017,2018,2019"
+sugar,United Kingdom,Import,9.001,4422,"2017,2019"
+sugar,France,Import,1.783,4342,"2017,2018,2019"
+sugar,South Korea,Import,0.02,2400,"2017,2019"
+sugar,Lebanon,Import,0.158,1335,"2017,2018,2019"
+sugar,Spain,Import,0.047,1033,"2017,2018,2019"
+sugar,Japan,Import,0.24,447,2018
+sugar,India,Import,0.0,422,2018
+sugar,Taiwan,Import,0.3,338,2019
+sugar,Romania,Import,0.15,221,2019
+sugar,Canada,Import,0.001,98,2017
+sugar,Turkey,Import,0.025,81,2019
+sugar,Poland,Import,0.08,58,2019

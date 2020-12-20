@@ -1,0 +1,6 @@
+product,state,SUM(total_tons),money
+soybean_meal,MT,79462274.743,27994539842
+soybean_meal,PR,86392369.404,24649962821
+soybean_meal,RS,48927458.589,15007385729
+soybean_meal,GO,28686580.483,9421430703
+soybean_meal,BA,17368055.631,5439265638

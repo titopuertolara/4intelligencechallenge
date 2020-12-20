@@ -1,0 +1,40 @@
+
+--query for getting annual exports
+SELECT product, SUM(tons) AS total_tons, SUM(usd) AS total_usd , SUBSTR(date,1,4) as year FROM brasil WHERE product='soybeans' AND type='Export' GROUP BY year 
+UNION SELECT product, SUM(tons) AS total_tons, SUM(usd) AS total_usd , SUBSTR(date,1,4) as year FROM brasil WHERE product='soybean_meal' AND type='Export' GROUP BY year 
+UNION SELECT product, SUM(tons) AS total_tons, SUM(usd) AS total_usd , SUBSTR(date,1,4) as year FROM brasil WHERE product='soybean_oil' AND type='Export' GROUP BY year ORDER BY year ASC;
+--query for getting monthly exports
+SELECT date,product,type,SUM(tons) As total_tons,SUM(usd) as total_usd FROM brasil WHERE product='soybeans' AND type='Export' GROUP BY date
+UNION SELECT date,product,type,SUM(tons) As total_tons,SUM(usd) as total_usd FROM brasil WHERE product='soybean_meal' AND type='Export' GROUP BY date
+UNION SELECT date,product,type,SUM(tons) As total_tons,SUM(usd) as total_usd FROM brasil WHERE product='soybean_oil' AND type='Export' GROUP BY date ORDER by date ASC;
+
+--query for getting total income en the last 5 years per product
+SELECT product,type,SUM(total_tons) AS total_tons,SUM(total_usd) AS total_income,group_concat(distinct(year)) as years FROM (SELECT product,type,SUM(tons) AS total_tons,SUM(usd) AS total_usd,SUBSTR(date,1,4) as year FROM brasil WHERE type='Export' GROUP BY year,product ORDER BY year DESC limit 30) GROUP BY product ORDER BY total_income DESC
+
+
+--- Countries with more income to Brasil in the las 5 years (top 10 corn).
+SELECT product,country,type,SUM(total_tons),SUM(total_usd) AS income,group_concat(distinct(year)) AS years FROM (SELECT product,country,type,SUM(tons) AS total_tons,SUM(usd) AS total_usd,SUBSTR(date,1,4) AS year FROM brasil WHERE product='corn' AND type='Export'  GROUP BY country,year ORDER BY year DESC) WHERE year IN('2019','2018','2017','2016','2015') GROUP BY country ORDER BY income DESC limit 10;
+
+-- best partners in corn 3 years
+
+CREATE TABLE 'corn_exported' AS SELECT product,country,type,SUM(total_tons) AS total_tons_exported,SUM(total_usd) AS income,group_concat(DISTINCT(year)) AS years FROM(SELECT product,country,type,SUM(tons) as total_tons,SUM(usd) as total_usd,substr(date,1,4) as year FROM brasil WHERE product='corn' AND year IN('2019','2018','2017') AND type='Export' GROUP BY year,country) GROUP BY country ORDER BY income DESC
+
+CREATE TABLE 'corn_imported' AS SELECT product,country,type,SUM(total_tons) AS total_tons_imported,SUM(total_usd) AS outcome,group_concat(DISTINCT(year)) AS years FROM(SELECT product,country,type,SUM(tons) as total_tons,SUM(usd) as total_usd,substr(date,1,4) as year FROM brasil WHERE product='corn' AND year IN('2019','2018','2017') AND type='Import' GROUP BY year,country) GROUP BY country ORDER BY outcome DESC
+
+SELECT e.product,e.country,e.income-i.outcome AS payment_balance FROM corn_exported AS e INNER JOIN corn_imported AS i ON e.country=i.country
+
+--best partners in sugar 3 years
+CREATE TABLE 'sugar_imported' AS SELECT product,country,type,SUM(total_tons) AS total_tons_imported,SUM(total_usd) AS outcome,group_concat(DISTINCT(year)) AS years FROM(SELECT product,country,type,SUM(tons) as total_tons,SUM(usd) as total_usd,substr(date,1,4) as year FROM brasil WHERE product='sugar' AND year IN('2019','2018','2017') AND type='Import' GROUP BY year,country) GROUP BY country ORDER BY outcome DESC
+
+CREATE TABLE 'sugar_exported' AS SELECT product,country,type,SUM(total_tons) AS total_tons_exported,SUM(total_usd) AS income,group_concat(DISTINCT(year)) AS years FROM(SELECT product,country,type,SUM(tons) as total_tons,SUM(usd) as total_usd,substr(date,1,4) as year FROM brasil WHERE product='sugar' AND year IN('2019','2018','2017') AND type='Export' GROUP BY year,country) GROUP BY country ORDER BY income DESC
+
+SELECT e.product,e.country,e.income-i.outcome AS payment_balance FROM sugar_exported AS e INNER JOIN sugar_imported AS i ON e.country=i.country
+
+---Get state production by year for each product
+SELECT product, state, type,SUM(tons) as total_tons,SUM(usd) as total_usd,substr(date,1,4) as year FROM brasil WHERE type='Export'  GROUP BY year,state,product
+
+--Get 5 more productive states by product
+
+SELECT product,state ,SUM(total_tons), SUM(total_usd) AS money  FROM (SELECT product, state, type,SUM(tons) as total_tons,SUM(usd) as total_usd,substr(date,1,4) as year FROM brasil WHERE type='Export'  GROUP BY year,state,product) WHERE product='sugar' GROUP BY state ORDER BY money DESC limit 5
+ 
+--For other products just change product Before WHERE.

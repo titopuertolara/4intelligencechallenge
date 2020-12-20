@@ -1,0 +1,155 @@
+product,country,type,total_tons_exported,income,years
+sugar,Algeria,Export,6696854.262,2176380928,"2017,2018,2019"
+sugar,Bangladesh,Export,6331640.155,2063174600,"2017,2018,2019"
+sugar,India,Export,5111371.882,1696094938,"2017,2018,2019"
+sugar,United Arab Emirates,Export,4545802.219,1538397895,"2017,2018,2019"
+sugar,Saudi Arabia,Export,4249461.903,1380455693,"2017,2018,2019"
+sugar,Nigeria,Export,4156814.026,1336515029,"2017,2018,2019"
+sugar,Iraq,Export,3555241.197,1158541230,"2017,2018,2019"
+sugar,Malaysia,Export,2981729.159,1039031070,"2017,2018,2019"
+sugar,Egypt,Export,3071223.738,1010584065,"2017,2018,2019"
+sugar,Morocco,Export,2850892.879,931580393,"2017,2018,2019"
+sugar,Canada,Export,2461989.798,848568223,"2017,2018,2019"
+sugar,China,Export,2526863.982,742210044,"2017,2018,2019"
+sugar,Yemen,Export,1737514.636,588608579,"2017,2018,2019"
+sugar,United States,Export,924980.725,517542851,"2017,2018,2019"
+sugar,Iran,Export,1432084.983,480091597,"2017,2018,2019"
+sugar,Angola,Export,1146396.134,426284550,"2017,2018,2019"
+sugar,Indonesia,Export,1093907.638,402883915,"2017,2018"
+sugar,Russia,Export,1036085.146,354459374,"2017,2018,2019"
+sugar,Tunisia,Export,1027844.142,342332161,"2017,2018,2019"
+sugar,Benin,Export,889093.373,317432214,"2017,2018,2019"
+sugar,Venezuela,Export,750191.911,288530301,"2017,2018,2019"
+sugar,South Africa,Export,501105.99,205397674,"2017,2018,2019"
+sugar,Togo,Export,557476.701,202634484,"2017,2018,2019"
+sugar,Georgia,Export,611192.361,202337547,"2017,2018,2019"
+sugar,Ghana,Export,513766.64,195644667,"2017,2018,2019"
+sugar,Somalia,Export,419888.117,149312349,"2017,2018,2019"
+sugar,Gambia,Export,400642.0,146738322,"2017,2018,2019"
+sugar,Kenya,Export,389585.438,141317930,"2017,2018,2019"
+sugar,Mauritania,Export,267976.15,109847694,"2017,2018,2019"
+sugar,Guinea,Export,289971.05,106377763,"2017,2018,2019"
+sugar,Myanmar,Export,197573.6,104859371,2017
+sugar,Croatia,Export,302268.75,92467338,"2017,2018,2019"
+sugar,Madagascar,Export,220480.31,85172449,"2017,2018,2019"
+sugar,Senegal,Export,200321.75,84811075,"2017,2018,2019"
+sugar,Mauritius,Export,206503.798,79522944,"2017,2018,2019"
+sugar,Chile,Export,238793.998,77438003,"2017,2018,2019"
+sugar,Syria,Export,236350.0,74403152,"2017,2018,2019"
+sugar,Uruguay,Export,232522.517,73789412,"2017,2018,2019"
+sugar,Cote D'Ivore,Export,203857.0,73658357,"2017,2018,2019"
+sugar,Estonia,Export,171660.0,66890669,2017
+sugar,Israel,Export,141508.715,58036819,"2017,2018,2019"
+sugar,United Kingdom,Export,174193.598,57765824,"2017,2018,2019"
+sugar,Spain,Export,133639.625,52131839,"2017,2018,2019"
+sugar,Colombia,Export,126775.135,51801553,"2017,2018,2019"
+sugar,Djibouti,Export,112112.9,47068818,"2017,2018"
+sugar,Romania,Export,122217.16,46229133,"2017,2018,2019"
+sugar,Cameroon,Export,114393.0,44766039,"2017,2018,2019"
+sugar,Netherlands,Export,63535.125,42458523,"2017,2018,2019"
+sugar,Peru,Export,97801.384,41025963,"2017,2018,2019"
+sugar,Portugal,Export,123896.558,39717316,"2017,2018,2019"
+sugar,Uzbekistan,Export,147015.651,39069039,"2018,2019"
+sugar,Lebanon,Export,109652.1,37161274,"2017,2018,2019"
+sugar,Taiwan,Export,101502.634,35404141,"2017,2018,2019"
+sugar,Belgium,Export,38028.176,30715078,"2017,2018,2019"
+sugar,Sudan,Export,80755.0,29227277,2017
+sugar,Finland,Export,87775.886,28407165,"2017,2018,2019"
+sugar,France,Export,33235.274,26582390,"2017,2018,2019"
+sugar,Tanzania,Export,62084.0,25773020,"2017,2018,2019"
+sugar,Paraguay,Export,70015.073,23192188,"2017,2018,2019"
+sugar,Lithuania,Export,42655.0,21224930,"2017,2018,2019"
+sugar,Liberia,Export,56800.158,20547014,"2017,2018,2019"
+sugar,Haiti,Export,36865.975,15669350,"2017,2018,2019"
+sugar,Eritrea,Export,33999.65,15324712,2017
+sugar,Malta,Export,41615.33,15317613,"2017,2018,2019"
+sugar,Germany,Export,17146.284,14815804,"2017,2018,2019"
+sugar,Cape Verde,Export,39812.9,14775152,"2017,2018,2019"
+sugar,New Zealand,Export,33367.015,13821947,"2017,2018,2019"
+sugar,South Korea,Export,14452.5,11862838,"2017,2018,2019"
+sugar,Mexico,Export,32295.05,11409508,"2017,2018,2019"
+sugar,Turkey,Export,31960.372,11141100,"2017,2018,2019"
+sugar,Sweden,Export,12254.329,9848611,"2017,2018,2019"
+sugar,Sierra Leone,Export,24234.0,9678764,"2017,2018,2019"
+sugar,Libya,Export,23514.178,8688305,"2017,2018,2019"
+sugar,Jamaica,Export,26466.0,8402737,"2017,2018,2019"
+sugar,Albania,Export,18445.5,8348637,"2017,2019"
+sugar,Armenia,Export,30450.0,8257349,2018
+sugar,Bolivia,Export,14409.032,7717223,"2017,2018,2019"
+sugar,Costa Rica,Export,19396.543,7417853,"2017,2018,2019"
+sugar,Niger,Export,29153.315,7365457,2019
+sugar,Namibia,Export,12367.0,5579359,"2017,2018"
+sugar,Australia,Export,5310.195,4369050,"2017,2018,2019"
+sugar,Democratic Republic of the Congo,Export,10438.5,4319225,"2017,2019"
+sugar,Vietnam,Export,9987.0,4175443,2017
+sugar,Oman,Export,10690.0,4025089,"2017,2018"
+sugar,Ukraine,Export,13671.956,3732626,2019
+sugar,Congo,Export,8466.0,3534437,"2017,2018"
+sugar,Singapore,Export,6201.778,3427335,"2017,2018,2019"
+sugar,Italy,Export,4340.066,3229112,"2017,2018,2019"
+sugar,Denmark,Export,4107.96,3149740,"2017,2018,2019"
+sugar,Guinea-Bissau,Export,8181.0,2975246,"2017,2018,2019"
+sugar,Equatorial Guinea,Export,6841.19,2864024,"2017,2018,2019"
+sugar,Japan,Export,2847.271,2653302,"2017,2018,2019"
+sugar,Switzerland,Export,6046.819,2336286,"2017,2018,2019"
+sugar,Kazakhstan,Export,6356.21,2166705,2018
+sugar,Montenegro,Export,5202.0,2114964,"2017,2018,2019"
+sugar,Trinidad and Tobago,Export,4600.03,1963481,"2017,2018,2019"
+sugar,Greece,Export,4000.939,1863374,"2017,2018,2019"
+sugar,S�o Tome and Principe,Export,4777.035,1766427,"2017,2018,2019"
+sugar,Guatemala,Export,4592.788,1423812,"2017,2018,2019"
+sugar,Guyana,Export,3278.308,1200998,"2017,2018,2019"
+sugar,Cuba,Export,3380.0,1001563,2018
+sugar,Philippines,Export,946.198,803784,"2017,2018,2019"
+sugar,Suriname,Export,1467.034,611882,"2017,2018,2019"
+sugar,Cyprus,Export,1303.51,566382,"2017,2018,2019"
+sugar,Dominican Republic,Export,1081.0,486021,"2017,2018"
+sugar,Antigua and Barbuda,Export,702.534,383204,"2017,2018,2019"
+sugar,Sri Lanka,Export,729.0,367626,2017
+sugar,Uganda,Export,754.0,285269,2017
+sugar,Samoa,Export,600.0,236498,2017
+sugar,Mozambique,Export,525.52,220055,"2018,2019"
+sugar,Nepal,Export,540.0,189432,2017
+sugar,Comoros,Export,236.032,182777,"2017,2019"
+sugar,Poland,Export,540.0,164212,2018
+sugar,Sint Maarten,Export,258.404,148581,"2017,2018,2019"
+sugar,Panama,Export,267.296,135668,"2017,2018,2019"
+sugar,Saint Helena,Export,240.0,131827,2019
+sugar,Americana Samoa,Export,300.0,122729,2017
+sugar,Qatar,Export,260.518,114350,"2017,2018,2019"
+sugar,Hong Kong,Export,106.371,108513,"2017,2018,2019"
+sugar,Argentina,Export,232.82,93303,"2017,2018,2019"
+sugar,Bahamas,Export,110.481,88151,"2017,2018,2019"
+sugar,Aruba,Export,155.99,81793,"2017,2018,2019"
+sugar,Norway,Export,103.883,62050,"2017,2018,2019"
+sugar,French Polynesia,Export,78.0,60875,"2017,2018"
+sugar,Kiribati,Export,135.0,55921,"2017,2018"
+sugar,Mayotte,Export,105.0,46460,2018
+sugar,Cura�ao,Export,103.188,46055,"2018,2019"
+sugar,Seychelles,Export,74.034,40469,"2018,2019"
+sugar,Slovenia,Export,27.018,38643,"2017,2019"
+sugar,Grenada,Export,51.992,29615,2017
+sugar,Belarus,Export,30.0,21791,2017
+sugar,Marshall Islands,Export,13.687,17974,"2018,2019"
+sugar,Montserrat,Export,26.0,12458,2018
+sugar,Thailand,Export,11.453,11445,"2018,2019"
+sugar,Afghanistan,Export,27.0,9718,2019
+sugar,Brunei,Export,27.0,9207,2019
+sugar,French Guyana,Export,6.402,2980,"2017,2019"
+sugar,Cayman Islands,Export,2.742,2355,"2018,2019"
+sugar,French Southern Lands,Export,2.0,1570,2018
+sugar,Gabon,Export,1.085,1278,2017
+sugar,Bahrein,Export,0.877,893,"2018,2019"
+sugar,Isle of Man,Export,0.243,339,"2018,2019"
+sugar,Barbados,Export,0.057,279,2019
+sugar,Falkland Islands (Malvinas),Export,0.1,252,2018
+sugar,Ethiopia,Export,2.835,226,2018
+sugar,Bermuda,Export,0.112,194,2019
+sugar,Gibraltar,Export,0.18,190,"2018,2019"
+sugar,Planes and ships provisions,Export,0.086,96,2018
+sugar,Saint Vicent and the Granadines,Export,0.016,46,2018
+sugar,Pakistan,Export,0.018,43,2019
+sugar,Bosnia and Herzegovina,Export,0.037,40,2019
+sugar,Latvia,Export,0.04,26,2019
+sugar,Belize,Export,0.025,22,2019
+sugar,Brazil,Export,0.0,15,2019

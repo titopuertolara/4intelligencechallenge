@@ -1,0 +1,114 @@
+product,country,type,total_tons_exported,income,years
+corn,Iran,Export,16425650.284,2822336281,"2017,2018,2019"
+corn,Japan,Export,9676921.124,1574975592,"2017,2018,2019"
+corn,Vietnam,Export,9446981.783,1551035208,"2017,2018,2019"
+corn,Egypt,Export,8353796.965,1375065136,"2017,2018,2019"
+corn,Spain,Export,8243941.434,1335769607,"2017,2018,2019"
+corn,South Korea,Export,6273068.245,1024567902,"2017,2018,2019"
+corn,Taiwan,Export,5059363.349,815565313,"2017,2018,2019"
+corn,Malaysia,Export,4238331.591,696333511,"2017,2018,2019"
+corn,Bangladesh,Export,3228435.564,527878978,"2017,2018,2019"
+corn,Mexico,Export,2519002.752,422359346,"2017,2018,2019"
+corn,Morocco,Export,2124073.111,353889836,"2017,2018,2019"
+corn,Dominican Republic,Export,2053016.201,334572091,"2017,2018,2019"
+corn,Portugal,Export,1950204.981,318431569,"2017,2018,2019"
+corn,Saudi Arabia,Export,1810854.145,300037345,"2017,2018,2019"
+corn,Netherlands,Export,1757881.303,280863896,"2017,2018,2019"
+corn,Algeria,Export,1618685.43,265081316,"2017,2018,2019"
+corn,Ireland,Export,1033757.388,167931658,"2017,2018,2019"
+corn,Colombia,Export,862018.2,166532815,"2017,2018,2019"
+corn,Jordan,Export,912801.599,149780475,"2017,2018,2019"
+corn,Italy,Export,661143.797,105577035,"2017,2018,2019"
+corn,Paraguay,Export,28279.339,94635139,"2017,2018,2019"
+corn,Israel,Export,572048.29,91978403,"2017,2018,2019"
+corn,United States,Export,334012.559,88958761,"2017,2018,2019"
+corn,Indonesia,Export,417436.351,70103014,"2017,2018,2019"
+corn,Cuba,Export,402730.394,67673158,"2017,2018,2019"
+corn,Guatemala,Export,364999.784,58983355,"2017,2018,2019"
+corn,Lebanon,Export,351619.537,58275189,"2017,2018,2019"
+corn,United Arab Emirates,Export,284324.378,56628745,"2017,2018,2019"
+corn,Venezuela,Export,278987.271,47350448,"2017,2018,2019"
+corn,United Kingdom,Export,265435.986,44633333,"2017,2018,2019"
+corn,Puerto Rico,Export,267198.601,44524565,"2017,2018,2019"
+corn,El Salvador,Export,250683.772,41635828,"2017,2019"
+corn,Nicaragua,Export,249760.094,40756049,"2017,2018,2019"
+corn,Tunisia,Export,189554.965,32517514,"2017,2018,2019"
+corn,Kuwait,Export,177599.254,29207873,"2017,2018,2019"
+corn,Turkey,Export,151090.636,27462162,"2017,2018,2019"
+corn,Costa Rica,Export,165159.664,27114654,"2017,2018,2019"
+corn,China,Export,154401.703,25596456,"2017,2018,2019"
+corn,Philippines,Export,85380.22,23216005,"2017,2018,2019"
+corn,Oman,Export,126261.64,20652750,"2017,2018,2019"
+corn,Argentina,Export,6172.301,18670054,"2017,2018,2019"
+corn,South Africa,Export,97593.291,15314816,"2017,2018,2019"
+corn,Peru,Export,41133.19,14589650,"2017,2018,2019"
+corn,Ecuador,Export,3749.78,10391456,"2017,2018,2019"
+corn,Senegal,Export,57609.533,9552979,"2018,2019"
+corn,India,Export,19358.465,8244972,"2017,2018,2019"
+corn,Angola,Export,35187.139,7018827,"2017,2018,2019"
+corn,Bolivia,Export,9227.682,5895072,"2017,2018,2019"
+corn,Canada,Export,36301.92,5713251,2019
+corn,Nigeria,Export,33077.059,5454746,"2017,2018,2019"
+corn,Belgium,Export,28752.149,4556686,"2017,2018,2019"
+corn,Pakistan,Export,4281.29,4148591,"2017,2018,2019"
+corn,Uruguay,Export,22500.0,3866930,2018
+corn,North Korea,Export,17700.0,2837255,"2018,2019"
+corn,Afghanistan,Export,13076.83,2378200,"2018,2019"
+corn,Jamaica,Export,10263.695,1837339,2019
+corn,Trinidad and Tobago,Export,7598.903,1292043,"2017,2018,2019"
+corn,Iceland,Export,8000.0,1281280,2019
+corn,Nepal,Export,1251.003,579644,"2017,2018,2019"
+corn,Russia,Export,1116.875,553344,"2017,2018"
+corn,Chile,Export,835.938,399964,"2017,2018,2019"
+corn,Virgin Islands (UK),Export,2242.331,373793,2017
+corn,Thailand,Export,2007.275,347756,"2017,2018,2019"
+corn,Yemen,Export,779.28,341219,"2018,2019"
+corn,Sudan,Export,40.413,324890,"2017,2019"
+corn,Syria,Export,746.82,304643,"2018,2019"
+corn,Niger,Export,510.0,247616,"2017,2019"
+corn,Guyana,Export,1319.11,193133,"2017,2018,2019"
+corn,Armenia,Export,415.26,181007,"2018,2019"
+corn,Ethiopia,Export,349.36,179799,"2017,2019"
+corn,Singapore,Export,497.03,178628,"2018,2019"
+corn,Democratic Republic of the Congo,Export,390.0,176670,"2018,2019"
+corn,Panama,Export,365.102,165432,"2018,2019"
+corn,Togo,Export,309.5,145470,"2017,2019"
+corn,Kenya,Export,325.478,139652,"2018,2019"
+corn,Ghana,Export,402.805,137505,"2018,2019"
+corn,Myanmar,Export,484.14,87910,2018
+corn,Mauritania,Export,454.32,82845,2017
+corn,Cameroon,Export,156.0,70200,2019
+corn,Bulgaria,Export,0.13,70200,2017
+corn,Benin,Export,153.475,69761,"2018,2019"
+corn,Equatorial Guinea,Export,4.375,59729,"2017,2018,2019"
+corn,Liberia,Export,126.294,54674,"2018,2019"
+corn,Mali,Export,104.0,48360,2019
+corn,Iraq,Export,100.0,44956,2019
+corn,Gambia,Export,77.99,35383,"2018,2019"
+corn,Poland,Export,75.0,34608,"2018,2019"
+corn,Greece,Export,75.18,32039,"2018,2019"
+corn,Romania,Export,51.58,24789,2018
+corn,Australia,Export,45.0,21825,2019
+corn,Libya,Export,52.0,21030,2019
+corn,Suriname,Export,85.44,20334,"2017,2019"
+corn,Cape Verde,Export,46.737,17240,"2017,2018,2019"
+corn,Congo,Export,26.4,14890,"2018,2019"
+corn,Mozambique,Export,2.0,5200,2017
+corn,Cura�ao,Export,17.5,4240,2019
+corn,France,Export,0.083,3995,"2018,2019"
+corn,Marshall Islands,Export,0.256,492,"2018,2019"
+corn,Switzerland,Export,0.338,426,"2018,2019"
+corn,Zambia,Export,0.162,407,2018
+corn,Hong Kong,Export,0.315,339,"2018,2019"
+corn,Germany,Export,0.181,323,"2017,2018,2019"
+corn,Malta,Export,0.184,301,"2018,2019"
+corn,Cyprus,Export,0.199,202,"2018,2019"
+corn,Denmark,Export,0.108,155,2019
+corn,S�o Tome and Principe,Export,0.27,131,2017
+corn,Cambodia,Export,0.1,106,2019
+corn,Luxembourg,Export,0.1,78,2018
+corn,Bahamas,Export,0.042,75,2019
+corn,Norway,Export,0.02,56,"2018,2019"
+corn,Bahrein,Export,0.022,15,2019
+corn,Isle of Man,Export,0.006,14,2019
+corn,Cayman Islands,Export,0.012,11,2019

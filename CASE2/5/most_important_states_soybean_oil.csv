@@ -1,0 +1,6 @@
+product,state,SUM(total_tons),money
+soybean_oil,PR,16482050.271,11109102057
+soybean_oil,RS,9279785.812,6281965055
+soybean_oil,MT,7423876.651,5434513926
+soybean_oil,SC,1786134.23,1238810673
+soybean_oil,GO,1094295.302,855920734

@@ -1,0 +1,10 @@
+product,country,type,total_tons_imported,outcome,years
+corn,Paraguay,Import,2842287.275,374158249,"2017,2018,2019"
+corn,Argentina,Import,819267.684,154907150,"2017,2018,2019"
+corn,United States,Import,2221.313,20830122,"2017,2018,2019"
+corn,Bolivia,Import,955.531,2500841,"2017,2018,2019"
+corn,Mexico,Import,10.295,139491,"2017,2018,2019"
+corn,Spain,Import,4.698,10635,2018
+corn,Brazil,Import,0.08,1956,2017
+corn,Guatemala,Import,0.05,200,2018
+corn,Belgium,Import,0.0,1,2019
